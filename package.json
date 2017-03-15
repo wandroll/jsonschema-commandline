@@ -1,6 +1,6 @@
 {
   "name": "jsonschema-commandline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "another commandline json validator ",
   "main": "validator.js",
   "author": "wandrille VERLUT",
