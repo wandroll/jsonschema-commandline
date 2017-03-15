@@ -1,5 +1,5 @@
 {
-  "name": "validator",
+  "name": "jsonschema-commandline",
   "version": "1.0.0",
   "description": "another commandline json validator ",
   "main": "validator.js",
@@ -12,5 +12,9 @@
   },
   "bin": {
     "jsvalidate": "./validator.js"
+  },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/wandroll/jsonschema-commandline"
   }
 }
