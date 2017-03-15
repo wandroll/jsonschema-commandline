@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Validator = require('jsonschema').Validator;
 const JSONReader = require('jsonfile');
 const Argv = require('yargs')

@@ -1,13 +1,16 @@
 {
   "name": "validator",
   "version": "1.0.0",
-  "description": "an evolve json validator",
-  "main": "index.js",
+  "description": "another commandline json validator ",
+  "main": "validator.js",
   "author": "wandrille VERLUT",
   "license": "MIT",
   "dependencies": {
     "jsonfile": "^2.4.0",
     "jsonschema": "^1.1.1",
     "yargs": "^7.0.2"
+  },
+  "bin": {
+    "jsvalidate": "./validator.js"
   }
 }
