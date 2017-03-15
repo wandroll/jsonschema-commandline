@@ -5,8 +5,14 @@ Based on [jsonschema](https://github.com/tdegrunt/jsonschema) validator, it is d
 Any improvment and feedbacks are welcome !
 
 
+## Installation
+Install gloablly with NPM or Yarn 
+```javascript
+  npm install -g jsonschema-commandline
+```
+
 ## Usage
-Install dependencies with NPM or Yarn then 
+From commandline run : 
 
 ```javascript
-  node validator.js -s demo/person.schema.json demo/person.sample.json
+  jsvalidate -s demo/person.schema.json demo/person.sample.json
