@@ -11,7 +11,7 @@ const Argv = require('yargs')
 let samplePath = Argv._[0];
 let schemaPath = Argv.s;
 
-console.dir ('validationg %d against %d', samplePath, schemaPath);
+console.dir ('validating %d against %d', samplePath, schemaPath);
 
 let sample = JSONReader.readFileSync(samplePath);
 let schema = JSONReader.readFileSync(schemaPath);
