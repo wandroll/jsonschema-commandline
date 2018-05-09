@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/jsonschema-commandline.svg)](https://badge.fury.io/js/jsonschema-commandline)
+
 # jsonschema-commandline
 Based on [jsonschema](https://github.com/tdegrunt/jsonschema) validator, it is design to ease json validation from command line
 
